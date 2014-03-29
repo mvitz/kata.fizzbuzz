@@ -16,10 +16,11 @@ public class FizzBuzzTest {
     @Parameters
     public static Collection<Object[]> parameters() {
         return Arrays.asList(
-                new Object[] { 1, "1" },
-                new Object[] { 3, "Fizz" },
-                new Object[] { 5, "Buzz" },
-                new Object[] { 6, "Fizz" }
+                new Object[] {  1, "1" },
+                new Object[] {  3, "Fizz" },
+                new Object[] {  5, "Buzz" },
+                new Object[] {  6, "Fizz" },
+                new Object[] { 10, "Buzz" }
         );
     }
 

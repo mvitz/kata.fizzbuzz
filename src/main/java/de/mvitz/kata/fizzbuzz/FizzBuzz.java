@@ -24,7 +24,7 @@ public enum FizzBuzz {
     }
 
     private static boolean isBuzzNumber(int number) {
-        return number == 5;
+        return number % 5 == 0;
     }
 
 }
