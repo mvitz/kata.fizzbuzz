@@ -17,7 +17,8 @@ public class FizzBuzzTest {
     public static Collection<Object[]> parameters() {
         return Arrays.asList(
                 new Object[] { 1, "1" },
-                new Object[] { 3, "Fizz" }
+                new Object[] { 3, "Fizz" },
+                new Object[] { 5, "Buzz" }
         );
     }
 
