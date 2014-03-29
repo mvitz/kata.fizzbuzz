@@ -11,4 +11,9 @@ public class FizzBuzzTest {
         assertThat(FizzBuzz.of(1)).as("FizzBuzz of 1").isEqualTo("1");
     }
 
+    @Test
+    public void testFizzBuzzOfThree() throws Exception {
+        assertThat(FizzBuzz.of(3)).as("FizzBuzz of 3").isEqualTo("Fizz");
+    }
+
 }
