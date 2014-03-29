@@ -10,13 +10,19 @@ public enum FizzBuzz {
     }
 
     public static String of(int number) {
-        if (isFizzNumber(number)) {
+        if (isFizzBuzzNumber(number)) {
+            return "FizzBuzz";
+        } else if (isFizzNumber(number)) {
             return "Fizz";
         } else if (isBuzzNumber(number)) {
             return "Buzz";
         } else {
             return String.valueOf(number);
         }
+    }
+
+    private static boolean isFizzBuzzNumber(int number) {
+        return isFizzNumber(number) && isBuzzNumber(number);
     }
 
     private static boolean isFizzNumber(int number) {

@@ -20,7 +20,8 @@ public class FizzBuzzTest {
                 new Object[] {  3, "Fizz" },
                 new Object[] {  5, "Buzz" },
                 new Object[] {  6, "Fizz" },
-                new Object[] { 10, "Buzz" }
+                new Object[] { 10, "Buzz" },
+                new Object[] { 15, "FizzBuzz" }
         );
     }
 
