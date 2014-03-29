@@ -14,12 +14,13 @@ public enum FizzBuzz {
             return "Fizz";
         } else if (isBuzzNumber(number)) {
             return "Buzz";
+        } else {
+            return String.valueOf(number);
         }
-        return String.valueOf(number);
     }
 
     private static boolean isFizzNumber(int number) {
-        return number == 3;
+        return number % 3 == 0;
     }
 
     private static boolean isBuzzNumber(int number) {
