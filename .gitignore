@@ -4,3 +4,8 @@ target/
 # IDEA
 *.iml
 .idea/
+
+# ECLIPSE
+.project
+.classpath
+.settings/
